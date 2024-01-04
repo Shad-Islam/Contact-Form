@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: white;
+}
+
+.container{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    margin: 40px auto;
+    border: 1px solid black;
+}
+
+.container__left{
+    width: 65%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.container__right{
+    width: 35%;
+    height: 100%;
+    background-color:aqua;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+#textarea{
+    resize: none;
+    max-height: 20px;
+}
