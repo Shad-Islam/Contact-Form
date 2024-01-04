@@ -1,7 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    letter-spacing: 1px;
     box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 body{
     height: 100vh;
@@ -29,11 +31,43 @@ body{
 }
 
 .form{
+    height: 80%;
     display: flex;
+    margin-top: 30px;
     flex-direction: column;
+    background-color: rgb(93, 153, 153);
+}
+
+.labels{
+    margin-bottom: 8px;
+}
+
+.inputs{
+    height: 56px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 16px 56px 16px 16px;
 }
 
 #textarea{
     resize: none;
-    max-height: 20px;
+    outline: none;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.form-button button{
+    font-size: 12px;
+    padding: 12px 30px;
+    border-width: 0;
+    border-radius: 50px;
+    color: #474b4f;
+    pointer-events: none;
+    border-color: #dde1e6;
+    background-color: #dde1e6;
+    font-weight: 500;
 }
