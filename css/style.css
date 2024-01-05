@@ -15,19 +15,28 @@ body{
     height: 60%;
     display: flex;
     margin: 40px auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
+/* container left css start */
 .container__left{
     width: 65%;
     height: 100%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
-.container__right{
-    width: 35%;
-    height: 100%;
-    background-color:aqua;
+.heading{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.sub-heading{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
 }
 
 .form{
@@ -35,7 +44,7 @@ body{
     display: flex;
     margin-top: 30px;
     flex-direction: column;
-    background-color: rgb(93, 153, 153);
+    /* background-color: rgb(93, 153, 153); */
 }
 
 .labels{
@@ -48,7 +57,13 @@ body{
     font-size: 16px;
     border-radius: 8px;
     margin-bottom: 16px;
+    border: 1px solid #dde1e6;
     padding: 16px 56px 16px 16px;
+    transition: all linear 0.9s;
+}
+
+.inputs:hover{
+    border: 1px solid #000;
 }
 
 #textarea{
@@ -61,13 +76,20 @@ body{
 }
 
 .form-button button{
+    cursor: pointer;
     font-size: 12px;
-    padding: 12px 30px;
     border-width: 0;
-    border-radius: 50px;
     color: #474b4f;
-    pointer-events: none;
+    font-weight: 500;
+    padding: 12px 30px;
+    border-radius: 50px;
     border-color: #dde1e6;
     background-color: #dde1e6;
-    font-weight: 500;
+}
+
+/* container right css start  */
+.container__right{
+    width: 35%;
+    height: 100%;
+    /* background-color:aqua; */
 }
